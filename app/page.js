@@ -13,6 +13,7 @@ import Testimonial from "@/components/Testimonial";
 import NoxfolioLayout from "@/layout/NoxfolioLayout";
 import React, { useState, useEffect } from 'react';
 import Footer from "@/layout/Footer";
+import { OnePageMenu } from "@/layout/Menu";
 
 export default function Home() {
   const [data, setData] = useState(null);
@@ -51,7 +52,7 @@ export default function Home() {
   }
 
   return (
-    <NoxfolioLayout>
+    <NoxfolioLayout onePageMenu={OnePageMenu}>
       {/* Hero Section Start */}
       
       <Hero data = {data.about} />

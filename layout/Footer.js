@@ -45,27 +45,27 @@ const Footer1 = ({data}) => {
                 <h6 className="footer-title">Quick Link</h6>
                 <ul>
                   <li>
-                    <Link legacyBehavior href="services">
+                    <Link legacyBehavior href="#services">
                       Service
                     </Link>
                   </li>
                   <li>
-                    <Link legacyBehavior href="projects">
+                    <Link legacyBehavior href="#portfolio">
                       Projects
                     </Link>
                   </li>
                   <li>
-                    <Link legacyBehavior href="services#pricing">
-                      Pricing
+                    <Link legacyBehavior href="#blog">
+                      Blog
                     </Link>
                   </li>
                   <li>
-                    <Link legacyBehavior href="about#faqs">
-                      Faqs
+                    <Link legacyBehavior href="#resume">
+                      Resume
                     </Link>
                   </li>
                   <li>
-                    <Link legacyBehavior href="contact">
+                    <Link legacyBehavior href="#contact">
                       Contact
                     </Link>
                   </li>
