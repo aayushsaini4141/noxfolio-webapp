@@ -4,7 +4,6 @@ import { useEffect } from "react";
 import Footer from "./Footer";
 import Header from "./Header";
 import SideBar from "./SideBar";
-import { data } from "isotope-layout";
 
 const NoxfolioLayout = ({
   children,
